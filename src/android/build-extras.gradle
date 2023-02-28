@@ -1,12 +1,7 @@
 dependencies {
-    compile 'com.android.support:multidex:1.0.3'
-    // some plugin to use, write here
+    implementation 'com.android.support:multidex:1.0.3'
 }
 android {
-    dexOptions {
-        jumboMode true
-        javaMaxHeapSize "4g"
-    }
     defaultConfig {
         multiDexEnabled true
     }
