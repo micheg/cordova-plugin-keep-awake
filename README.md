@@ -1,5 +1,12 @@
 # cordova-plugin-keep-awake
 
+# Notes
+
+I forked the repository due to little (if any) support from the original author for this plugin.
+I tried to make it compatible with cordova 11 but only android side.
+The original plugin has several problems completing the build process. The features are still in the testing phase.
+
+## Original Readme
 
 Using this plug-in, you can control the automatic sleep at any time.
 
